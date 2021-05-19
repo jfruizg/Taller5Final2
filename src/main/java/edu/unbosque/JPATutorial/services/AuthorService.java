@@ -16,6 +16,7 @@ import java.util.List;
 public class AuthorService {
 
     AuthorRepository authorRepository;
+    private String num;
 
     public List<AuthorPOJO> listAuthors() {
 
